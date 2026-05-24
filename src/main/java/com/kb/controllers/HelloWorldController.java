@@ -12,7 +12,8 @@ public class HelloWorldController {
 	@RequestMapping("/helloWorld")
 	public String helloWorld(Model model) {
 		
-		model.addAttribute("message", "Hi user, Great !! , welcome to First Spring MVC project bunuuuuuuuuuuuuuuuuuu");
+		model.addAttribute("message", "Hi user, Great !! , welcome  puchk puck
+		to First Spring MVC project bunuuuuuuuuuuuuuuuuuu");
 
 		return "/helloWorld";
 	}
